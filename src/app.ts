@@ -63,9 +63,9 @@ export class App {
     const options = {
       swaggerDefinition: {
         info: {
-          title: 'REST API',
+          title: 'Matching Service API',
           version: '1.0.0',
-          description: 'Example docs',
+          description: 'Documentation for the REST API',
         },
       },
       apis: ['swagger.yaml'],
