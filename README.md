@@ -2,15 +2,7 @@
 
 ## Description
 
-This backend serves as the core of a simple matching system, featuring:
-
-- A RESTful API for handling data operations
-- Docker support for both development and production environments
-- Comprehensive unit and integration tests
-- API documentation via Swagger
-- Code quality maintained with Prettier and ESLint
-- Express.js framework for the server architecture
-- Husky for enforcing code standards with pre-commit hooks
+This backend serves as the core of a simple matching system.
 
 ## Technology Stack
 
