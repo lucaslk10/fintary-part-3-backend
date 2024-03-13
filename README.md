@@ -1,60 +1,82 @@
 # Part 3 - Backend
 
 ## Description
-This project includes
 
-- A RESTful API to manage the data of a simple matching system
-- Dockerized environment for development and production
-- Unit tests
-- Integration tests
-- Swagger documentation
-- Prettier/Eslint
-- Express for the server
-- Husky for pre-commit hooks
+This backend serves as the core of a simple matching system, featuring:
 
+- A RESTful API for handling data operations
+- Docker support for both development and production environments
+- Comprehensive unit and integration tests
+- API documentation via Swagger
+- Code quality maintained with Prettier and ESLint
+- Express.js framework for the server architecture
+- Husky for enforcing code standards with pre-commit hooks
 
-## Running the project
->NOTE: By default server will be started at port 3000.
+## Technology Stack
 
-### Local
-To run the project locally, you need to have Node.js and npm installed. Then, you can run the following commands:
+- **Node.js** with **Express.js** for the server framework
+- **Docker** for containerization and easy deployment
+- **Swagger** for API documentation
+- **Jest** for unit and integration testing
+- **Prettier** and **ESLint** for code formatting and linting
+- **Husky** for pre-commit hooks to ensure code quality
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js and npm (for local development)
+- Docker (for Docker-based setup)
+
+### Running the Project
+
+> **NOTE:** The server starts on port `3000` by default.
+
+#### Local Development
+
+To run the project locally:
 
 ```bash
 npm install
 npm run dev
 ```
 
-### Docker
+#### Using Docker
 
-To run the project using Docker, you need to have Docker installed. Then, you can run the following commands:
+For Docker users:
 
 ```bash
-## Up the container images
+# Start the containers
 make up
 
-## Down the container images
+# Stop the containers
 make down
 
-## Build the container image - Production
+# Build the container for production
 make build
 
-## Build the container image - Development
+# Build the container for development
 make build-dev
 
-## Run the container image
+# Run the container
 make run
 
-## Pause the containers
+# Pause the containers
 make pause
 
-## Clean the images
+# Clean up images
 make clean
 
-## Remove the volumes
+# Remove volumes
 make remove
 ```
 
-You can also use ```make help``` to check the list of available commands in the makefile.
+Use `make help` to see all available `make` commands.
 
-## Dcoumentation
-The API documentation is available at http://localhost:3000/api-docs
+## Documentation
+
+Access the API documentation at: [http://localhost:3000/api-docs](http://localhost:3000/api-docs)
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
